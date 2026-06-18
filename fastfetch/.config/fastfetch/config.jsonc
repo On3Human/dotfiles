@@ -5,16 +5,14 @@
     "separator",
     "os",
     "kernel",
+    "cpu",
     "uptime",
     "packages",
     "shell",
     "de",
+    "lm",
     "wm",
-    "font",
     "terminal",
-    "cpu",
     "memory",
-    "break",
-    "colors"
   ]
 }
