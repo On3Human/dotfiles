@@ -120,17 +120,17 @@ function y() {
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="nvim"
+alias p="pacman"
 alias sv="sudo nvim"
 alias vc="nvim ~/.zshrc"
 alias vvc="nvim ~/.config/nvim/init.lua"
 alias ff="fastfetch --logo Trisquel"
 alias src="source ~/.zshrc"
-alias pi="sudo pacman -S"
+alias vkitty="nvim ~/.config/kitty/kitty.conf"
 alias vi3="nvim ~/.config/i3/config"
 alias fq="fc-query -f '%{family[0]}\n'"
 alias khali="khal interactive"
 alias ytd="yt-dlp"
-alias vkitty="nvim ~/.config/kitty/kitty.conf"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
