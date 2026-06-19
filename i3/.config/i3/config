@@ -160,6 +160,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
+
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
@@ -182,6 +183,14 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
+# CLIPBOARD SECTION.
+exec_always --no-startup-id clipcatd
+
+set $launcher-clipboard-insert clipcat-menu insert
+set $launcher-clipboard-remove clipcat-menu remove
+
+bindsym $mod+p exec $launcher-clipboard-insert
+bindsym $mod+o exec $launcher-clipboard-remove
 
 bindsym $mod+r mode "resize"
 bindsym $mod+Shift+w exec --no-startup-id ~/dotfiles/scripts/wallpaper.sh
