@@ -184,7 +184,7 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
+bindsym $mod+Shift+w exec --no-startup-id ~/dotfiles/scripts/wallpaper.sh
 exec --no-startup-id setxkbmap -layout us,ara -option 'grp:win_space_toggle'
 exec --no-startup-id feh --bg-scale ~/wallpapers/greyskin.png
 exec --no-startup-id polybar
