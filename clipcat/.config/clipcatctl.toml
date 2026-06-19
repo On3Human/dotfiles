@@ -1,0 +1,10 @@
+server_endpoint = "/run/user/1000/clipcat/grpc.sock"
+preview_length = 100
+show_source_prefix = false
+grpc_max_message_size = 8388608
+
+[log]
+emit_journald = true
+emit_stdout = false
+emit_stderr = false
+level = "INFO"
