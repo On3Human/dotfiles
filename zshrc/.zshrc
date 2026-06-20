@@ -135,3 +135,4 @@ alias ytd="yt-dlp"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="$PATH:$HOME/go/bin"
+export MANPAGER='nvim +Man!'
