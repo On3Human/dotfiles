@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	email = 195063741+On3Human@users.noreply.github.com
+	name = Human
+[core]
+	pager = nvim -R
+[color]
+	pager = no
