@@ -120,7 +120,7 @@ function y() {
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="nvim"
-alias p="pacman"
+alias p="sudo pacman"
 alias sv="sudo nvim"
 alias vc="nvim ~/.zshrc"
 alias vvc="nvim ~/.config/nvim/init.lua"
