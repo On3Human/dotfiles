@@ -1,0 +1,54 @@
+general {
+        output_format = "i3bar"
+        colors = true
+        interval = 5
+}
+
+order += "disk /"
+order += "memory"
+order += "load"
+order += "cpu_temperature 0"
+order += "volume master"
+order += "ethernet enp8s0"
+order += "tztime local"
+
+wireless wlp3s0 {
+        format_up = "W: (%quality at %essid, %bitrate) %ip"
+        format_down = "W: down"
+}
+
+ethernet enp8s0 {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
+
+volume master {
+        format = "VOL: %volume"
+        format_muted = "VOL: muted"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+cpu_temperature 0 {
+        format = "T: %degrees °C"
+        path = "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input"
+}
+
+memory {
+        format = "%used"
+        threshold_degraded = "10%"
+        format_degraded = "MEMORY: %free"
+}
+
+load {
+        format = "%5min"
+}
+
+disk "/" {
+        format = "%free"
+}
+
+tztime local {
+        format = "%Y-%m-%d %H:%M"
+}

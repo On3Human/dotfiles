@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 require("config.lazy")
-vim.cmd.colorscheme("gruvbox")
+vim.cmd.colorscheme("tokyonight")
 vim.opt.number = true
 vim.o.termguicolors = true
 vim.opt.foldmethod = "expr"

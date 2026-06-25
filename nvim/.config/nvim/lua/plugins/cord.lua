@@ -9,6 +9,10 @@ return {
 		display = {
 			theme = "minecraft",
 			flavor = "dark",
+		},
+		idle = {
+			enabled = false,
 		}
+
 	}
 }

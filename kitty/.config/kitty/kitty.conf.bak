@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_THEME
-# Gruvbox Dark
+# Gruvbox Dark Hard
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -3269,9 +3269,9 @@ include current-theme.conf
 
 
 # BEGIN_KITTY_FONTS
-font_family      family='JetBrains Mono' style=Regular
-font_size 12.5
+font_family      family="JetBrains Mono"
 bold_font        auto
+font_size 12.5
 italic_font      auto
 bold_italic_font auto
 # END_KITTY_FONTS
