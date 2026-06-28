@@ -132,7 +132,8 @@ alias fq="fc-query -f '%{family[0]}\n'"
 alias khali="khal interactive"
 alias ytd="yt-dlp"
 alias ac="aria2c"
-alias z="zathura"
+alias zo="zoxide"
+alias za="zathura"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$PATH:$HOME/.cargo/env"
