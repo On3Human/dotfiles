@@ -1,0 +1,27 @@
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+# # # 
+XTerm.vt100.locale: false
+XTerm.vt100.utf8: true
+# Alt sends Escape
+XTerm.vt100.metaSendsEscape: true
+# Fix backspace
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+# keybindings
+XTerm.vt100.translations: #override \n\
+    Ctrl <Key>M: maximize() \n\
+    Ctrl <Key>R: restore()
+
+
+# Save more lines than default 1024
+XTerm.vt100.saveLines: 4096
+
+XTerm.vt100.geometry: 80x32
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+Term.vt100.faceName: JetBrains Mono :size=17:antialias=false
+XTerm.vt100.font: 7x13
