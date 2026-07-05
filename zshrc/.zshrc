@@ -107,7 +107,8 @@ function y() {
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
-
+# diacritics support
+setopt COMBINING_CHARS
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
 # users are encouraged to define aliases within a top-level file in
@@ -116,9 +117,6 @@ function y() {
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="nvim"
 alias p="sudo pacman"
 alias sv="sudo nvim"
