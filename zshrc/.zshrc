@@ -79,7 +79,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
-
+	zsh-autosuggestions
+	
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -137,3 +138,5 @@ alias za="zathura"
 export PATH="$PATH:$HOME/.cargo/env"
 export PATH="$PATH:$HOME/go/bin"
 export MANPAGER='nvim +Man!'
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/human/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
