@@ -3,7 +3,7 @@ general {
         colors = true
         interval = 5
 }
-
+order += "read_file uptime"
 order += "disk /"
 order += "memory"
 order += "load"
@@ -51,4 +51,7 @@ disk "/" {
 
 tztime local {
         format = "%Y-%m-%d %H:%M"
+}
+read_file uptime {
+        path = "/proc/uptime"
 }
