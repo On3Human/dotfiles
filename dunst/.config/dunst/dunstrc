@@ -1,0 +1,24 @@
+[global]
+font = JetBrains Mono 10
+separator_height = 2
+padding = 8
+horizontal_padding = 8
+frame_width = 2
+frame_color = "#504945"
+separator_color = "frame"
+
+[urgency_low]
+background = "#282828"
+foreground = "#928374"
+timeout = 4
+
+[urgency_normal]
+background = "#282828"
+foreground = "#ebdbb2"
+timeout = 10
+
+[urgency_critical]
+background = "#cc241d"
+foreground = "#fbf1c7"
+timeout = 0
+
