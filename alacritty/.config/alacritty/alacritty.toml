@@ -20,7 +20,7 @@ multiplier = 3
 [font]
 size = 12.67
 [font.normal]
-family = "IosevkaTerm Nerd Font Mono"
+family = "JetBrains Mono"
 style = "Medium"
 
 [font.bold]
@@ -37,7 +37,7 @@ x = 0
 y = 0
 
 [cursor]
-style = { shape = "Block", blinking = "Off" }
+style = { shape = "Beam", blinking = "Off" }
 unfocused_hollow = true
 thickness = 0.15
 
