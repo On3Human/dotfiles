@@ -2,7 +2,7 @@ separator=true
 separator_block_width=15
 [systemd]
 command=~/dotfiles/scripts/systmed_failure_detector.sh
-interval=30
+interval=15
 
 [packages]
 command=checkupdates | wc -l
