@@ -1,6 +1,10 @@
 separator=true
 separator_block_width=15
 
+[playerctl]
+interval=persist
+command=stdbuf -i0 -e0 -o0 playerctl metadata --follow --format '{{ emoji(status) }} {{ artist }} - {{ title }}'
+
 [cpu]
 command=~/dotfiles/scripts/cpu.sh
 interval=2
