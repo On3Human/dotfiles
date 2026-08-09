@@ -1,5 +1,16 @@
 separator=true
 separator_block_width=15
+[systemd]
+command=~/dotfiles/scripts/systmed_failure_detector.sh
+interval=30
+
+[packages]
+command=checkupdates | wc -l
+interval=300
+
+[keymap]
+command=xkb-switch; stdbuf -oL xkb-switch -W
+interval=persist
 
 [playerctl]
 interval=persist
