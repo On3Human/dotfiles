@@ -1,5 +1,14 @@
 separator=true
 separator_block_width=15
+
+[playerctl]
+interval=persist
+command=stdbuf -i0 -e0 -o0 playerctl metadata --follow --format '{{ emoji(status) }} {{ artist }} - {{ title }}' | sed -u 's/\xef\xb8\x8f//g'
+
+[internet]
+command=~/dotfiles/scripts/internet_check.sh
+interval=once
+
 [systemd]
 command=~/dotfiles/scripts/systmed_failure_detector.sh
 interval=15
@@ -12,11 +21,8 @@ interval=300
 command=xkb-switch; stdbuf -oL xkb-switch -W
 interval=persist
 
-[playerctl]
-interval=persist
-command=stdbuf -i0 -e0 -o0 playerctl metadata --follow --format '{{ emoji(status) }} {{ artist }} - {{ title }}'
-
 [cpu]
+min_width=25
 command=~/dotfiles/scripts/cpu.sh
 interval=2
 color=#fabd2f
