@@ -5,10 +5,6 @@ separator_block_width=15
 interval=persist
 command=stdbuf -i0 -e0 -o0 playerctl metadata --follow --format '{{ emoji(status) }} {{ artist }} - {{ title }}' | sed -u 's/\xef\xb8\x8f//g'
 
-[internet]
-command=~/dotfiles/scripts/internet_check.sh
-interval=once
-
 [systemd]
 command=~/dotfiles/scripts/systmed_failure_detector.sh
 interval=15
