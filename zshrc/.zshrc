@@ -101,9 +101,13 @@ function y() {
 # diacritics support
 setopt COMBINING_CHARS
 source ~/dotfiles/aliases.zsh
+source ~/.zshsecrets.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$PATH:$HOME/.cargo/env"
 export PATH="$PATH:$HOME/go/bin"
-export MANPAGER='nvim +Man!'
+#export MANPAGER='nvim +Man!'
 source /home/human/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Created by `pipx` on 2026-08-14 21:39:43
+export PATH="$PATH:/home/human/.local/bin"
