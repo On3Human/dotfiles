@@ -5,10 +5,10 @@ Minimal and functional Linux configuration.
 ## Components
 
 - Window Manager: i3
-- Status Bar: polybar, i3blocks, i3status-rust
+- Status Bar: i3blocks
 - Terminal: kitty, alacritty, wezterm
 - Shell: zsh (Oh My Zsh, Powerlevel10k, zoxide)
-- Editor: Neovim (Lazy.nvim, Lua-based)
+- Editor: Neovim
 - File Manager: yazi
 - Music: mpd, rmpc (RON config)
 - Clipboard: clipcat
