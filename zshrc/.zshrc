@@ -35,3 +35,7 @@ export PATH="$PATH:/home/human/.local/bin"
 export PATH="$PATH:$SCRIPTSDIR"
 source ~/dotfiles/aliases.zsh
 source ~/.zshsecrets.sh
+
+
+# opencode
+export PATH=/home/human/.opencode/bin:$PATH

@@ -2,3 +2,4 @@ mpd/.config/mpd/database
 mpd/.config/mpd/sticker.sql
 mpd/.config/mpd/playlists/
 kitty/.config/kitty/current-theme.conf
+*.bak
